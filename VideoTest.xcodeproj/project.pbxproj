@@ -12,6 +12,10 @@
 		84DD5F372175078000AA38EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DD5F352175078000AA38EA /* Main.storyboard */; };
 		84DD5F392175078600AA38EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DD5F382175078600AA38EA /* Assets.xcassets */; };
 		84DD5F3C2175078700AA38EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DD5F3A2175078700AA38EA /* LaunchScreen.storyboard */; };
+		84DD5F4421750A3800AA38EA /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD5F4321750A3800AA38EA /* VideoTableViewController.swift */; };
+		84DD5F4621750B4A00AA38EA /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD5F4521750B4A00AA38EA /* VideoTableViewCell.swift */; };
+		84DD5F4821750BFA00AA38EA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD5F4721750BFA00AA38EA /* Model.swift */; };
+		84DD5F4A2175114400AA38EA /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DD5F492175114400AA38EA /* VideoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		84DD5F382175078600AA38EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84DD5F3B2175078700AA38EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84DD5F3D2175078700AA38EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DD5F4321750A3800AA38EA /* VideoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
+		84DD5F4521750B4A00AA38EA /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		84DD5F4721750BFA00AA38EA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		84DD5F492175114400AA38EA /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				84DD5F312175078000AA38EA /* AppDelegate.swift */,
 				84DD5F332175078000AA38EA /* ViewController.swift */,
 				84DD5F352175078000AA38EA /* Main.storyboard */,
+				84DD5F4321750A3800AA38EA /* VideoTableViewController.swift */,
+				84DD5F4721750BFA00AA38EA /* Model.swift */,
+				84DD5F492175114400AA38EA /* VideoCollectionViewCell.swift */,
+				84DD5F4521750B4A00AA38EA /* VideoTableViewCell.swift */,
 				84DD5F382175078600AA38EA /* Assets.xcassets */,
 				84DD5F3A2175078700AA38EA /* LaunchScreen.storyboard */,
 				84DD5F3D2175078700AA38EA /* Info.plist */,
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DD5F4A2175114400AA38EA /* VideoCollectionViewCell.swift in Sources */,
+				84DD5F4821750BFA00AA38EA /* Model.swift in Sources */,
 				84DD5F342175078000AA38EA /* ViewController.swift in Sources */,
+				84DD5F4621750B4A00AA38EA /* VideoTableViewCell.swift in Sources */,
+				84DD5F4421750A3800AA38EA /* VideoTableViewController.swift in Sources */,
 				84DD5F322175078000AA38EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
