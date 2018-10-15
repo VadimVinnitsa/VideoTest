@@ -31,20 +31,22 @@ static let identifier = "cell"
         let nameLable = UILabel()
         nameLable.textColor = .blue
         nameLable.font = UIFont.preferredFont(forTextStyle: .caption1)
-        nameLable.text = "Hellow"
+      //  nameLable.text = "Hellow"
         nameLable.translatesAutoresizingMaskIntoConstraints = false
         return nameLable
     }()
+
     
     let moreButton: UIButton = {
         
         let button = UIButton()
         button.setTitle("Ещё >", for: .normal)
         button.setTitleColor(.blue, for: .normal)
-        button.titleLabel?.font = UIFont.preferredFont(forTextStyle: .title2)
+        button.titleLabel?.font = UIFont.preferredFont(forTextStyle: .title1)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
+    
     
     let movieCollectionView: UICollectionView = {
         
@@ -58,9 +60,8 @@ static let identifier = "cell"
     }()
     
     func setupVideoTableViewCell() {
-        
+    
         backgroundColor = .clear
-        
         addSubview(companyNameLable)
         addSubview(moreButton)
         addSubview(movieCollectionView)
@@ -70,8 +71,7 @@ static let identifier = "cell"
         movieCollectionView.delegate = self
         
         movieCollectionView.register(VideoCollectionViewCell.self, forCellWithReuseIdentifier: VideoCollectionViewCell.identifier)
-        
-        //MARK: - Constraints cell items
+       
         let views = ["companyNameLable": companyNameLable, "moreButton": moreButton, "collectionView": movieCollectionView]
         
         addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-14-[companyNameLable]-[moreButton]-3-|", options: NSLayoutConstraint.FormatOptions(), metrics: nil, views: views))

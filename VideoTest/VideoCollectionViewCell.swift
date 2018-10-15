@@ -40,7 +40,7 @@ class VideoCollectionViewCell: UICollectionViewCell {
       name.font = UIFont.preferredFont(forTextStyle: .body)
         name.textColor = .red
         name.numberOfLines = 2
-        name.text = "Привет, как дела? че там кого?"
+      //  name.text = "Привет, как дела? че там кого?"
         name.translatesAutoresizingMaskIntoConstraints = false
         return name
         
@@ -51,7 +51,7 @@ class VideoCollectionViewCell: UICollectionViewCell {
         let year = UILabel()
         year.font = UIFont.preferredFont(forTextStyle: .body)
         year.textColor = .green
-        year.text = "2018"
+     //   year.text = "2018"
         year.translatesAutoresizingMaskIntoConstraints = false
         return year
         
